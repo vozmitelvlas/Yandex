@@ -43,7 +43,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #F8604A;
 }
 button:focus,
 button:focus-visible {
@@ -141,8 +141,10 @@ main{
   -webkit-box-shadow: 5px 5px 10px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 5px 5px 10px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 5px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  overflow: auto;
 }
-.tables{
-  margin-left: 150px;
-  display:flex;
+.main_tables{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
 }

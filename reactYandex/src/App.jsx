@@ -1,5 +1,7 @@
 import Header from "./components/Header.jsx" 
 import Table from "./components/Table.jsx";
+import MainHeader from "./components/MainHeader.jsx";
+
 
 
 export default function App() {
@@ -7,8 +9,16 @@ export default function App() {
     <div className="all">
       <Header />
       <main>
-        <h1><span>Т</span>аблицы</h1>
-        <div className="tables">
+        <MainHeader></MainHeader>        
+        <div className="main_tables">
+          <Table />
+          <Table />
+          <Table />
+          <Table />
+          <Table />
+          <Table />
+          <Table />
+          <Table />
           <Table />
           <Table />
           <Table />

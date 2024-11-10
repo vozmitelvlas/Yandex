@@ -2,7 +2,6 @@ import user_logo from "/user.svg";
 import exit from "/exit.svg";
 import { getCurrentDate } from "../utils.jsx";
 import { getCurrentTime } from "../utils.jsx";
-console.log(getCurrentDate());
 
 export default function Header() {
   return (
