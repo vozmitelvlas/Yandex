@@ -7,12 +7,12 @@ export default function Table(){
             <TableHeader title="Ответы ДВК на маркетинг"/>
 
             <div className="upper_buttons">
-            <Button text="Таблица"></Button>
-            <Button text="Форма"></Button>
+                <Button text="Таблица"></Button>
+                <Button text="Форма"></Button>
             </div>
             <div className="low_buttons">
-            <Button text="Статистика и история"></Button>
-            <Button text="Настройки доступа"></Button>
+                <Button text="Статистика и история"></Button>
+                <Button text="Настройки доступа"></Button>
             </div>
         </div>
     )
