@@ -1,34 +1,14 @@
-import Header from "./components/Header.jsx" 
-import Table from "./components/Table.jsx";
-import MainHeader from "./components/MainHeader.jsx";
-
-
+import Tables from "./components/Tables/Tables";
+import SignIn from "./components/SignIn/SignIn";
+import {Route, Routes} from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="all">
-      <Header />
-      <main>
-        <MainHeader></MainHeader>        
-        <div className="main_tables">
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-          <Table />
-        </div>
-      </main>
+    <div>
+      <Routes>
+        <Route path={"/"} element={<SignIn />}/>
+        <Route path={"/tables"} element={<Tables/>}/>
+      </Routes>
     </div>
   );
 }

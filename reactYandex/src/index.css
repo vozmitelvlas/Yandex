@@ -43,7 +43,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #F8604A;
+  border-color: #000000;
 }
 button:focus,
 button:focus-visible {
@@ -56,7 +56,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #F8604A;
   }
   button {
     background-color: #f9f9f9;
@@ -103,6 +103,7 @@ section ul li{
 }
 
 .right_header {
+  padding: 5px;
   margin-right: 0px;
   margin-left: auto;
 }
@@ -147,4 +148,8 @@ main{
   display: flex;
   flex-wrap: wrap;
   margin: 40px;
+}
+
+.exit_button{
+  all: unset;
 }
